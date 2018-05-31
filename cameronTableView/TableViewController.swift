@@ -19,21 +19,21 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         
         beerArray.append(Beer(name: "Kentucky Brunch Brand Stout",
-            style: "American Double / Imperial Stout / 12.00% ABV",
+            style: "Imperial Stout / 12.00% ABV",
             brewery: "Toppling Goliath Brewing Company",
             description: "This beer is the real McCoy. Barrel aged and crammed with coffee, none other will stand in it’s way. Sought out for being delicious, it is notoriously difficult to track down. If you can find one, shoot to kill, because it is definitely wanted... dead or alive.",
             image: "toppling-goliath")
         )
         
         beerArray.append(Beer(name: "Heady Topper",
-            style: "American Double / Imperial IPA / 8.00% ABV",
+            style: "Imperial IPA / 8.00% ABV",
             brewery: "The Alchemist Brewery",
             description: "An American Double IPA 75 IBU 8.0% ABV. Drink from the can.",
             image: "the-alchemist")
         )
         
          beerArray.append(Beer(name: "Barrel-Aged Abraxas",
-            style: "American Double / Imperial Stout / 11.00% ABV",
+            style: "Imperial Stout / 11.00% ABV",
             brewery: "Perennial Artisan Ales",
             description: "Imperial Stout aged Twelve months in Rittenhouse Rye barrels with cacao nibs, vanilla beans, ancho chiles & cinnamon sticks",
             image: "perennial-artisan")
@@ -47,42 +47,42 @@ class TableViewController: UITableViewController {
         )
         
         beerArray.append(Beer(name: "Hunahpu's Imperial Stout",
-            style: "American Double / Imperial Stout / 11.00% ABV",
+            style: "Imperial Stout / 11.00% ABV",
             brewery: "Cigar City Brewing",
             description: "Stout aged on Peruvian cacao nibs, ancho and pasilla chiles, cinnamon and Madagascar vanilla beans aged in apple brandy and rum barrels before being blended together.",
             image: "cigar-city")
         )
         
         beerArray.append(Beer(name: "King Julius",
-            style: "American Double / Imperial IPA / 8.30% ABV",
+            style: "Imperial IPA / 8.30% ABV",
             brewery: "Tree House Brewing Company",
             description: "The holiday season has a way of stirring up nostalgia. In late 2012, we brewed King Julius on our original Brew Magic brewing system - a whole ten gallons of it! Despite the size of the batch, the memory of it is enormous in our hearts.",
             image: "tree-house")
         )
         
         beerArray.append(Beer(name: "Pliny The Younger",
-            style: "American Double / Imperial IPA / 10.25% ABV",
+            style: "Imperial IPA / 10.25% ABV",
             brewery: "Russian River Brewing Company",
             description: "Pliny the Younger, the man, was Pliny the Elder’s nephew and adopted son. They lived nearly 2,000 years ago! Pliny the Elder is our Double IPA, so we felt it was fitting to name our Triple IPA after his son",
             image: "russian-river")
         )
         
         beerArray.append(Beer(name: "Fundamental Observation",
-            style: "American Double / Imperial Stout / 14.30% ABV",
+            style: "Imperial Stout / 14.30% ABV",
             brewery: "Bottle Logic Brewing",
             description: "Imperial Stout blended with Madagascar Vanilla Beans & Aged in Bourbon Barrels.",
             image: "bottle-logic")
         )
         
         beerArray.append(Beer(name: "Bourbon County",
-            style: "American Double / Imperial Stout / 12.90% ABV",
+            style: "Imperial Stout / 12.90% ABV",
             brewery: "Goose Island Beer Co.",
             description: "Exceoptional beer from Chicagoan exceptionalism.",
             image: "goose-island")
         )
         
         beerArray.append(Beer(name: "Canadian Breakfast Stout",
-            style: "American Double / Imperial Stout / 11.70% ABV",
+            style: "Imperial Stout / 11.70% ABV",
             brewery: "Founders Brewing Company",
             description: "Canadian Breakfast Stout (CBS) is the epitome of why we launched the Backstage Series: to bring some of our most sought-after beers, which have been available primarily at the taproom or at a few select events, to a much larger audience.",
             image: "founders")
