@@ -10,30 +10,30 @@ import UIKit
 
 class DescriptionViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var authorLabel: UILabel!
-    @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var beerNameLabel: UILabel!
+    @IBOutlet weak var breweryLabel: UILabel!
+    @IBOutlet weak var styleLabel: UILabel!
     @IBOutlet weak var descriptionText: UITextView!
+    @IBOutlet weak var breweryImage: UIImageView!
     
-    var book:Book?
+    var beer:Beer?
     var string:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleLabel.text = book?.title!
-        authorLabel.text = book?.author!
+        beerNameLabel.text = beer?.name!
+        breweryLabel.text = beer?.brewery!
+        styleLabel.text = beer?.style!
+        descriptionText.text = beer?.description!
+        breweryImage.image = UIImage(named: (beer?.image!)!)
         
-        if let yearString = book?.year {
-            yearLabel.text = String(yearString)
-        }
-        descriptionText.text = book?.description!
         
         // Do any additional setup after loading the view.
         
-        titleLabel.sizeToFit()
-        authorLabel.sizeToFit()
-        yearLabel.sizeToFit()
+        beerNameLabel.sizeToFit()
+        breweryLabel.sizeToFit()
+        styleLabel.sizeToFit()
         descriptionText.sizeToFit()
     }
 

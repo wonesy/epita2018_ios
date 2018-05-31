@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0761F67E20C07C1900AED088 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0761F67D20C07C1900AED088 /* Beer.swift */; };
 		0799678C206D4E4C00FC3093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0799678B206D4E4C00FC3093 /* AppDelegate.swift */; };
 		07996791206D4E4C00FC3093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0799678F206D4E4C00FC3093 /* Main.storyboard */; };
 		07996793206D4E4C00FC3093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07996792206D4E4C00FC3093 /* Assets.xcassets */; };
 		07996796206D4E4C00FC3093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07996794206D4E4C00FC3093 /* LaunchScreen.storyboard */; };
 		0799679E206D4E8A00FC3093 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0799679D206D4E8A00FC3093 /* TableViewController.swift */; };
-		079967A0206D4EA200FC3093 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0799679F206D4EA200FC3093 /* Books.swift */; };
 		07CB20E520753D070057C664 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB20E420753D070057C664 /* TableViewCell.swift */; };
 		07CB20E72075459E0057C664 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB20E62075459E0057C664 /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0761F67D20C07C1900AED088 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		07996788206D4E4B00FC3093 /* cameronTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameronTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0799678B206D4E4C00FC3093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07996790206D4E4C00FC3093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		07996795206D4E4C00FC3093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07996797206D4E4C00FC3093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0799679D206D4E8A00FC3093 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		0799679F206D4EA200FC3093 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		07CB20E420753D070057C664 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		07CB20E62075459E0057C664 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,9 +66,9 @@
 				07996794206D4E4C00FC3093 /* LaunchScreen.storyboard */,
 				07996797206D4E4C00FC3093 /* Info.plist */,
 				0799679D206D4E8A00FC3093 /* TableViewController.swift */,
-				0799679F206D4EA200FC3093 /* Books.swift */,
 				07CB20E420753D070057C664 /* TableViewCell.swift */,
 				07CB20E62075459E0057C664 /* DescriptionViewController.swift */,
+				0761F67D20C07C1900AED088 /* Beer.swift */,
 			);
 			path = cameronTableView;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079967A0206D4EA200FC3093 /* Books.swift in Sources */,
 				07CB20E520753D070057C664 /* TableViewCell.swift in Sources */,
 				0799678C206D4E4C00FC3093 /* AppDelegate.swift in Sources */,
+				0761F67E20C07C1900AED088 /* Beer.swift in Sources */,
 				07CB20E72075459E0057C664 /* DescriptionViewController.swift in Sources */,
 				0799679E206D4E8A00FC3093 /* TableViewController.swift in Sources */,
 			);
